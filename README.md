@@ -1,4 +1,4 @@
-# Test-Python
+# Test-Python-Template
 
 This is a template for a python project with pytest and coverage enabled.
 
@@ -38,19 +38,19 @@ workon python-test-template
 pip install -r requirements/dev.txt
 ```
 
-### Open in VSCode:
+### Open it in VSCode:
 
 ```
 code .
 ```
 
-### Save into a new workspace:
+### Save it into a new workspace:
 
 ```
 File > Save Workspace as > ~/Documents/workspaces/python-test-template.code-workspace
 ```
 
-### Add the virtualenv as the workspace python path.
+### Add the virtualenv as the workspace python path:
 
 - CTRL + SHIFT + p
 - Python: Select Interpreter
@@ -60,7 +60,7 @@ Now, whenever you open the VSCode integrated terminal it will start the virtuale
 
 ### Run all tests once using the integrated terminal:
 
-Ensure the vrtualenv is enabled.
+Ensure the virtualenv is enabled.
 
 ```
 scripts/run_tests.sh
@@ -68,7 +68,7 @@ scripts/run_tests.sh
 
 ### Start the watcher to run the tests whenever you save a python file:
 
-Ensure the vrtualenv is enabled.
+Ensure the virtualenv is enabled.
 
 ```
 scripts/watcher.sh
