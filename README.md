@@ -75,6 +75,15 @@ Ensure the virtualenv is activated.
 ```
 scripts/watcher.sh
 ```
+
+### Coverage Report
+
+After running the tests you may want to generate the coverage reports. The folder will be generated inside the repo. It can help you understand which workflows need to be tested.
+
+```
+coverage html
+```
+
 ---
 
 # Modify this template as you wish. Happy coding!
