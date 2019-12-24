@@ -12,7 +12,7 @@ Using Ubuntu 19.10, Python 3.7, PIP, virtualenv-wrapper and VSCode.
 
 ```
 cd ~/Documents/projects
-git clone https://github.com/josethomazini/python-test-template.git
+git clone git@github.com:josethomazini/python-test-template.git
 ```
 
 ### Create a virtualenv for the project:
