@@ -52,7 +52,7 @@ code .
 File > Save Workspace as > ~/Documents/workspaces/python-test-template.code-workspace
 ```
 
-### Add the virtualenv as the workspace python path:
+### Add the virtualenv as the workspace's python path:
 
 - CTRL + SHIFT + p
 - Python: Select Interpreter
@@ -62,7 +62,7 @@ Now, whenever you open the VSCode integrated terminal it will start the virtuale
 
 ### Run all tests at once using the integrated terminal:
 
-Ensure the virtualenv is enabled.
+Ensure the virtualenv is activated.
 
 ```
 scripts/run_tests.sh
@@ -70,8 +70,11 @@ scripts/run_tests.sh
 
 ### Start the watcher to run the tests whenever you save a python file:
 
-Ensure the virtualenv is enabled.
+Ensure the virtualenv is activated.
 
 ```
 scripts/watcher.sh
 ```
+---
+
+# Modify this template as you wish. Happy coding!
