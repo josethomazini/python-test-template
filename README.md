@@ -1,10 +1,12 @@
-# Test-Python-Template
+# Python-Test-Template
 
 This is a template for a python project with pytest and coverage enabled.
 
 ## Developer
 
+```
 Using Ubuntu 19.10, Python 3.7, PIP, virtualenv-wrapper and VSCode.
+```
 
 ### Download this repo:
 
@@ -19,7 +21,7 @@ git clone https://github.com/josethomazini/python-test-template.git
 mkvirtualenv python-test-template
 ```
 
-### Add an auto change folder whenever accessing the virtualenv:
+### Add an auto-change folder whenever accessing the virtualenv:
 
 ```
 cdvirtualenv
@@ -58,7 +60,7 @@ File > Save Workspace as > ~/Documents/workspaces/python-test-template.code-work
 
 Now, whenever you open the VSCode integrated terminal it will start the virtualenv.
 
-### Run all tests once using the integrated terminal:
+### Run all tests at once using the integrated terminal:
 
 Ensure the virtualenv is enabled.
 
