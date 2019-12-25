@@ -4,8 +4,9 @@ Tests for the messages module.
 
 import pytest
 
-from sources.core.settings import SETTINGS, LANG
+from sources.core.languages import LANG
 from sources.core.messages import MESSAGE, _
+from sources.core.settings import SETTINGS
 
 
 def test_all_language_messages_exists_for_core():

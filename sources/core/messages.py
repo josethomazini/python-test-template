@@ -2,7 +2,9 @@
 Messages in many idioms.
 '''
 
-from sources.core.settings import LANG, SETTINGS
+from sources.core.settings import SETTINGS
+from sources.core.languages import LANG
+
 
 MESSAGE = {
     'div_by_zero_forbidden': {
