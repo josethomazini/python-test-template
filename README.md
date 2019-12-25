@@ -2,11 +2,16 @@
 
 This is a template for a python project with pytest and coverage enabled.
 
-## Developer
+```
+Tested using Ubuntu 19.10, Python 3.7, PIP, virtualenv-wrapper and VSCode.
+```
 
-```
-Using Ubuntu 19.10, Python 3.7, PIP, virtualenv-wrapper and VSCode.
-```
+## Table of Contents  
+[Basic configs](#basic-configs)  
+[Developer](#developer)  
+[Production](#production)  
+
+## Basic Configs
 
 ### Download this repo:
 
@@ -33,6 +38,10 @@ echo 'cd ~/Documents/projects/python-test-template' >> bin/postactivate
 ```
 workon python-test-template
 ```
+
+---
+
+## Developer
 
 ### Install the developer's requirements:
 
@@ -82,6 +91,16 @@ After running the tests you may want to generate the coverage reports. The folde
 
 ```
 coverage html
+```
+
+---
+
+## Production
+
+### Install the production's requirements:
+
+```
+pip install -r requirements.txt
 ```
 
 ---
