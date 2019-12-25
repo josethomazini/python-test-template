@@ -13,7 +13,7 @@ Tested using Ubuntu 19.10, Python 3.7, PIP, virtualenv-wrapper and VSCode.
 
 ---
 
-## Basic Configs
+## Basic Configs [↑](#table-of-contents)
 
 ### Download this repo:
 
@@ -43,7 +43,7 @@ workon python-test-template
 
 ---
 
-## Developer
+## Developer [↑](#table-of-contents)
 
 ### Install the developer's requirements:
 
@@ -97,7 +97,7 @@ coverage html
 
 ---
 
-## Production
+## Production [↑](#table-of-contents)
 
 ### Install the production's requirements:
 
