@@ -60,7 +60,7 @@ File > Save Workspace as > ~/Documents/workspaces/python-test-template.code-work
 
 Now, whenever you open the VSCode integrated terminal it will start the virtualenv.
 
-### Run all tests at once using the integrated terminal:
+### Run all the tests at once using the integrated terminal:
 
 Ensure the virtualenv is activated.
 
@@ -68,7 +68,7 @@ Ensure the virtualenv is activated.
 scripts/run_tests.sh
 ```
 
-### Start the watcher to run the tests whenever you save a python file:
+### Start the watcher to run all the tests whenever you save a python file:
 
 Ensure the virtualenv is activated.
 
@@ -78,7 +78,7 @@ scripts/watcher.sh
 
 ### Coverage Report
 
-After running the tests you may want to generate the coverage reports. The folder will be generated inside the repo. It can help you understand which workflows need to be tested.
+After running the tests you may want to generate the coverage reports. The folder will be created inside the repo. It can help you understand which workflows need to be tested.
 
 ```
 coverage html
