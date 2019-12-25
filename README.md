@@ -7,9 +7,11 @@ Tested using Ubuntu 19.10, Python 3.7, PIP, virtualenv-wrapper and VSCode.
 ```
 
 ## Table of Contents  
-[Basic configs](#basic-configs)  
-[Developer](#developer)  
-[Production](#production)  
+- [Basic configs](#basic-configs)  
+- [Developer](#developer)  
+- [Production](#production)  
+
+---
 
 ## Basic Configs
 
